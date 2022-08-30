@@ -7,12 +7,10 @@ Common words (given 0 weighting in search) can be modified
 
 The results can also be modified (must stay as a list)
 
-UPDATE #1:
+Automatic sorting of results based on weighting
 
-  ADDED AUTOMATIC SORTING FOR RESULTS (HIGHEST SCORING RESULT COMES FIRST
+Increased compatbility bu using lists as output instead of dictionaries
 
-  ADDED DESIGN FEATURES
-
-  STARTED USING LISTS INSTEAD OF DICTIONARIES FOR OUTPUT
+Friendly design and output
 
 Algorithm complexity of O(n^3n)
