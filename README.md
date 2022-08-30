@@ -9,7 +9,9 @@ The results can also be modified (must stay as a list)
 
 UPDATE #1:
   ADDED AUTOMATIC SORTING FOR RESULTS (HIGHEST SCORING RESULT COMES FIRST)
+  
   ADDED DESIGN FEATURES
+  
   STARTED USING LISTS INSTEAD OF DICTIONARIES FOR OUTPUT
 
 Algorithm complexity of O(n^3n)
