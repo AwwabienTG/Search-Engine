@@ -11,6 +11,7 @@ def search_helper(search):
         if char in s.ascii_letters or char == " ":
             new_search = new_search + char.lower()
 
+    del char
 
     for char in list(new_search):   
         i+=1
@@ -18,7 +19,8 @@ def search_helper(search):
             indexes.append(i-1)
     
     del i
-    
+    del char
+
     try:
         words.append(new_search[0:indexes[0]])
     except:
